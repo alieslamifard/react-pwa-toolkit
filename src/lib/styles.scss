@@ -1,0 +1,89 @@
+.root-react-component-countdown-timer{
+  .left {
+    direction: ltr;
+  }
+
+  .border {
+    .count {
+      height: auto;
+      border: 1px solid #cfcfcf;
+      border-radius: 5px;
+      margin: 2px;
+      padding: 5px 5px;
+      flex: 1;
+    }
+    &.responsive {
+      .split {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .countBoxItem {
+    min-width: 30px;
+  }
+
+  .responsive {
+    display: flex !important;
+
+    .count {
+      flex: 1;
+      text-align: center;
+    }
+  }
+
+  .inline {
+    .count {
+      display: inline-block;
+    }
+
+    &.right {
+      display: inline-block;
+
+    }
+
+    &.left {
+      direction: rtl;
+      display: inline-flex;
+    }
+  }
+
+  .countBox {
+    display: flex;
+
+    span.split {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 0px;
+    }
+    &.border {
+      span.split {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+      }
+    }
+    .label {
+      text-align: center;
+    }
+
+    &.right {
+      display: inline-flex;
+      direction: rtl;
+    }
+
+    &.left {
+      direction: ltr;
+    }
+
+    .countBoxItem {
+      flex: 1;
+
+      .count {
+        text-align: center;
+      }
+    }
+  }
+}
