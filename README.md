@@ -3,6 +3,7 @@ Most common PWA helpers in one toolkit. [Powered by Hooks](https://reactjs.org/d
 
 Don't hesitate to support the project on Github if you like it ❤️ Also, contributors are always welcome!
 
+This is ONLY **[1kB](#1589F0)** with gzip.  
 [LIVE DEMO](https://alieslamifard.github.io/react-pwa-toolkit/)
 # Overview
 
