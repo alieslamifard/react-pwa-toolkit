@@ -1,13 +1,5 @@
-import React from "react";
 import Bowser from "bowser";
 
-const Device = () => {
-  const spec = Bowser.parse(window.navigator.userAgent);
-  return spec;
+export default function Device () {
+  return Bowser.parse(window.navigator.userAgent);
 };
-
-Device.propTypes = {};
-
-Device.defaultProps = {};
-
-export default Device;
