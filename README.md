@@ -9,7 +9,10 @@ The library is made to help to detect what browser your user has and gives you a
 
 # Use cases
 
-First of all, require the library. This is a React Module.
+First of all, install it and require the library. This is a React Module.
+```
+yarn add react-pwa-toolkit
+```
 ```javascript
 import React from "react";
 import Device, { useNetwork, usePwa, useVisibility, useInstallPrompt } from "react-pwa-toolkit";
