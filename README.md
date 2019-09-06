@@ -3,6 +3,7 @@ Most common PWA helpers in one toolkit. [Powered by Hooks](https://reactjs.org/d
 
 Don't hesitate to support the project on Github if you like it ❤️ Also, contributors are always welcome!
 
+[LIVE DEMO](https://alieslamifard.github.io/react-pwa-toolkit/)
 # Overview
 
 The library is made to help to detect what browser your user has and gives you a convenient API to access user behave and most useful device events.
