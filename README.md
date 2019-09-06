@@ -13,7 +13,7 @@ The library is made to help to detect what browser your user has and gives you a
 
 First of all, install it and require the library. This is a React Module.
 ```
-npm installgi  react-pwa-toolkit
+npm install react-pwa-toolkit
 ```
 ```javascript
 import React from "react";
